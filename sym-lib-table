@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ComboFlex")(type "KiCad")(uri "${KIPRJMOD}/Symbols/ComboFlex.kicad_sym")(options "")(descr ""))
+)
