@@ -1,0 +1,155 @@
+Info: Processing symbol 'TP10:TestPoint:TestPoint_Pad_D1.5mm'.
+Info: Processing symbol 'TP6:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'J15:'.
+Info: Processing symbol 'J14:'.
+Info: Processing symbol 'TP7:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'J13:'.
+Info: Processing symbol 'TP8:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'J12:'.
+Info: Processing symbol 'J11:'.
+Info: Processing symbol 'TP9:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'J10:'.
+Info: Processing symbol 'J16:'.
+Info: Processing symbol 'J9:'.
+Info: Processing symbol 'J8:'.
+Info: Processing symbol 'TP11:TestPoint:TestPoint_Pad_D1.5mm'.
+Info: Processing symbol 'J7:'.
+Info: Processing symbol 'J6:'.
+Info: Processing symbol 'TP12:TestPoint:TestPoint_Pad_D1.5mm'.
+Info: Processing symbol 'J4:'.
+Info: Processing symbol 'TP13:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'J3:'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'J5:'.
+Info: Processing symbol 'JP1:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Info: Processing symbol 'J20:5052781933'.
+Info: Processing symbol 'TP2:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'J19:Connector_Molex:Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical'.
+Info: Processing symbol 'TP3:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'J18:comboflex:wififlex'.
+Info: Processing symbol 'TP4:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'J17:'.
+Info: Processing symbol 'TP5:Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm'.
+Info: Processing symbol 'U4:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'TP20:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'U1:Package_SO:TSOP-I-48_18.4x12mm_P0.5mm'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'U2:Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'U3:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'U5:QFP50P1600X1600X120-100N'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'U6:SON50P300X200X60-9N-D'.
+Info: Processing symbol 'C3:'.
+Info: Processing symbol 'Y1:Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm'.
+Info: Processing symbol 'C2:'.
+Info: Processing symbol 'C1:'.
+Info: Processing symbol 'TP19:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Info: Processing symbol 'J2:'.
+Info: Processing symbol 'TP14:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Info: Processing symbol 'J1:'.
+Info: Processing symbol 'TP15:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Info: Processing symbol 'D2:Diode_SMD:D_SOD-523'.
+Info: Processing symbol 'TP16:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'D1:Diode_SMD:D_0603_1608Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'TP17:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'TP18:SamacSys_Parts:TestPoint_Pad_D0.75mm'.
+Add TP16 (footprint 'TestPoint:TestPoint_Pad_D1.0mm').
+Add TP1 (footprint 'TestPoint:TestPoint_Pad_D1.0mm').
+Add U3 (footprint 'Package_TO_SOT_SMD:SOT-23-5').
+Add TP10 (footprint 'TestPoint:TestPoint_Pad_D1.5mm').
+Add U4 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Add R9 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add TP11 (footprint 'TestPoint:TestPoint_Pad_D1.5mm').
+Add U1 (footprint 'Package_SO:TSOP-I-48_18.4x12mm_P0.5mm').
+Add TP13 (footprint 'TestPoint:TestPoint_Pad_D1.0mm').
+Add R8 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add Y1 (footprint 'Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm').
+Add TP12 (footprint 'TestPoint:TestPoint_Pad_D1.5mm').
+Add TP6 (footprint 'TestPoint:TestPoint_Pad_D1.0mm').
+Add R7 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add TP8 (footprint 'TestPoint:TestPoint_Pad_D1.0mm').
+Add U2 (footprint 'Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm').
+Add C8 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add D2 (footprint 'Diode_SMD:D_SOD-523').
+Add D1 (footprint 'Diode_SMD:D_0603_1608Metric').
+Add C17 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C16 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C15 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C14 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C13 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C12 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C11 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C10 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C9 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C7 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C6 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add C4 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Add R5 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add R4 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add R3 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add R2 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add R6 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add JP1 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Add J19 (footprint 'Connector_Molex:Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical').
+Add J18 (footprint 'comboflex:wififlex').
+Add C5 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Error: Cannot add TP20 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add C2 (no footprint assigned).
+Error: Cannot add TP19 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add U6 (footprint 'SON50P300X200X60-9N-D' not found).
+Error: Cannot add TP18 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add TP17 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add C3 (no footprint assigned).
+Error: Cannot add C1 (no footprint assigned).
+Error: Cannot add U5 (footprint 'QFP50P1600X1600X120-100N' not found).
+Error: Cannot add TP15 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add J12 (no footprint assigned).
+Error: Cannot add R1 (no footprint assigned).
+Error: Cannot add J20 (footprint '5052781933' not found).
+Error: Cannot add TP2 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add TP3 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add J17 (no footprint assigned).
+Error: Cannot add TP4 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add J16 (no footprint assigned).
+Error: Cannot add TP5 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add J15 (no footprint assigned).
+Error: Cannot add J14 (no footprint assigned).
+Error: Cannot add J13 (no footprint assigned).
+Error: Cannot add TP7 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add TP14 (footprint 'SamacSys_Parts:TestPoint_Pad_D0.75mm' not found).
+Error: Cannot add J11 (no footprint assigned).
+Error: Cannot add J10 (no footprint assigned).
+Error: Cannot add TP9 (footprint 'Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm' not found).
+Error: Cannot add J9 (no footprint assigned).
+Error: Cannot add J8 (no footprint assigned).
+Error: Cannot add J7 (no footprint assigned).
+Error: Cannot add J6 (no footprint assigned).
+Error: Cannot add J5 (no footprint assigned).
+Error: Cannot add J4 (no footprint assigned).
+Error: Cannot add J3 (no footprint assigned).
+Error: Cannot add J2 (no footprint assigned).
+Error: Cannot add J1 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 36.
