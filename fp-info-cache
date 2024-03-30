@@ -1,4 +1,4 @@
-23202145903928041
+23214118379346398
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94878,9 +94878,58 @@ Varistor VF
 2
 2
 comboflex
+QFP50P1600X1600X120-100N
+VQG100
+Integrated Circuit
+0
+100
+100
+comboflex
+SOP-28-MX
+
+
+0
+28
+28
+comboflex
+TestPoint_THTPad_D0.5mm_Drill0.35mm
+THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
+test point THT pad
+0
+1
+1
+comboflex
+Wii-TSOP48-trimmed
+TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf)
+TSOP I 32
+0
+40
+40
+comboflex
 wififlex
 
 
 0
 6
 6
+comboflex
+wii-single-via-0.3mm
+
+
+0
+1
+1
+comboflex
+wii-single-via-0.5mm
+
+
+0
+1
+1
+comboflex
+wii-single-via-0.45mm
+
+
+0
+1
+1
