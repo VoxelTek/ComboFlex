@@ -1882,28 +1882,27 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1924,7 +1923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Two pin crystal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1951,7 +1950,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1965,7 +1964,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.032 0)
+						(xy -2.54 0) (xy -1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -1977,7 +1976,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1989,31 +1988,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
+						(xy 1.905 -1.27) (xy 1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -2025,31 +2000,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+						(xy 2.54 0) (xy 1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -2060,7 +2011,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2080,7 +2031,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -2090,42 +2041,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3391,22 +3306,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 41.91 7.62 0)
+			(property "Reference" "U6"
+				(at 22.86 6.6337 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "AT25SF041B-MAHD-T"
-				(at 41.91 5.08 0)
+				(at 22.86 4.2094 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "SON50P300X200X60-9N-D"
@@ -3653,7 +3566,7 @@
 					)
 				)
 			)
-			(symbol "AT25SF041B-MAHD-T_0_1"
+			(symbol "AT25SF041B-MAHD-T_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 40.64 2.54) (xy 40.64 -15.24) (xy 5.08 -15.24) (xy 5.08 2.54)
@@ -3663,7 +3576,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -6775,6 +6688,12 @@
 		(uuid "35c82c04-1cc8-4ccd-aa56-3a7d14b341f6")
 	)
 	(junction
+		(at 41.91 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381261bc-fda3-4a7e-9570-f97248545433")
+	)
+	(junction
 		(at 435.61 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6985,6 +6904,12 @@
 		(uuid "badcd2e3-1f83-430e-954a-ce3db214087b")
 	)
 	(junction
+		(at 41.91 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd208cb-a7a0-4785-833b-5222f298075f")
+	)
+	(junction
 		(at 406.4 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7013,12 +6938,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f49c07-6466-4692-ac78-6a6b8439d6c9")
-	)
-	(junction
-		(at 41.91 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca35efe1-c1e7-468a-80bf-d32e9f04f3af")
 	)
 	(junction
 		(at 375.92 29.21)
@@ -7063,12 +6982,6 @@
 		(uuid "e9b28a55-c649-475d-891c-9e5135500c3a")
 	)
 	(junction
-		(at 41.91 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb96ea12-83f7-44e9-9295-6c7b90e7fe50")
-	)
-	(junction
 		(at 342.9 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7085,12 +6998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f430ea1a-e937-4fbe-84f7-38a271ab297e")
-	)
-	(junction
-		(at 41.91 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54de1a6-7794-4e48-a180-705591647eca")
 	)
 	(junction
 		(at 311.15 153.67)
@@ -7466,6 +7373,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118fbabf-5ed7-4f0d-9a19-342823d59669")
+	)
+	(wire
+		(pts
 			(xy 438.15 137.16) (xy 443.23 137.16)
 		)
 		(stroke
@@ -7573,6 +7490,16 @@
 			(type default)
 		)
 		(uuid "1518dc51-70b3-4a81-a293-6d9c7e11ed3b")
+	)
+	(wire
+		(pts
+			(xy 24.13 118.11) (xy 34.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157530ef-62ea-4973-99ec-7db02805b041")
 	)
 	(wire
 		(pts
@@ -7816,16 +7743,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 41.91 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27320d9d-f7c1-4efd-a30d-28bef035ca39")
-	)
-	(wire
-		(pts
 			(xy 303.53 160.02) (xy 303.53 161.29)
 		)
 		(stroke
@@ -7933,6 +7850,16 @@
 			(type default)
 		)
 		(uuid "2f9cc7d8-184b-4174-8454-eb069c5f6923")
+	)
+	(wire
+		(pts
+			(xy 41.91 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307254b2-1e1f-4583-9e14-8b4db3092499")
 	)
 	(wire
 		(pts
@@ -8136,6 +8063,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 113.03) (xy 34.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ea982a-7ad6-4737-abf2-350e6a5d7644")
+	)
+	(wire
+		(pts
 			(xy 114.3 41.91) (xy 106.68 41.91)
 		)
 		(stroke
@@ -8306,7 +8243,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 33.02) (xy 50.8 33.02)
+			(xy 33.02 33.02) (xy 41.91 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8623,16 +8560,6 @@
 			(type default)
 		)
 		(uuid "6e2ed0e1-0b1b-4147-b3e4-0098ca2451ca")
-	)
-	(wire
-		(pts
-			(xy 46.99 36.83) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea1e1f7-5853-42f3-bbae-58d3dcda6ecf")
 	)
 	(wire
 		(pts
@@ -9036,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 40.64) (xy 50.8 40.64)
+			(xy 33.02 40.64) (xy 41.91 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9296,16 +9223,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 45.72) (xy 41.91 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c864c40-127c-4ac8-b774-3266b4125218")
-	)
-	(wire
-		(pts
 			(xy 429.26 113.03) (xy 421.64 113.03)
 		)
 		(stroke
@@ -9503,16 +9420,6 @@
 			(type default)
 		)
 		(uuid "aa1da641-c7d0-451b-b655-bc788f34539b")
-	)
-	(wire
-		(pts
-			(xy 36.83 36.83) (xy 36.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac758223-beae-4643-a163-a6099a4caadb")
 	)
 	(wire
 		(pts
@@ -10076,16 +9983,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 41.91 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2b4432-416d-4697-8a8f-6e439af4a7a3")
-	)
-	(wire
-		(pts
 			(xy 363.22 24.13) (xy 373.38 24.13)
 		)
 		(stroke
@@ -10103,16 +10000,6 @@
 			(type default)
 		)
 		(uuid "e1080ca1-ff32-4d43-96e0-52eb08b0992b")
-	)
-	(wire
-		(pts
-			(xy 41.91 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28e23d7-f1e6-4736-b322-c426da0add0e")
 	)
 	(wire
 		(pts
@@ -10607,6 +10494,17 @@
 		)
 		(uuid "5db0552c-a949-43cd-9fd4-a2ec6991c672")
 	)
+	(label "SoftEcho"
+		(at 24.13 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72016962-6fb2-4638-b80a-b8dc7975b02a")
+	)
 	(label "Wii_RESET"
 		(at 24.13 107.95 0)
 		(fields_autoplaced yes)
@@ -10617,6 +10515,17 @@
 			(justify left bottom)
 		)
 		(uuid "d43337d3-2c14-494a-a523-22c3a0f0d6a0")
+	)
+	(label "SoftShut"
+		(at 24.13 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e48ca000-d5fc-4253-8e6c-bcb232a5d753")
 	)
 	(global_label "TMDS0-"
 		(shape input)
@@ -11749,7 +11658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 320.04 58.42 0)
 			(effects
 				(font
@@ -12339,6 +12248,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 34.29 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa19bc6-6682-49fa-8b9a-19ee7188b7de")
+		(property "Reference" "TP26"
+			(at 39.37 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SoftShut"
+			(at 39.37 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 34.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65dd6dd3-afe4-45e8-8b6a-c9a513503b54")
+		)
+		(instances
+			(project "ComboFlex"
+				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 34.29 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12365,7 +12341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 34.29 113.03 0)
 			(effects
 				(font
@@ -12567,7 +12543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 435.61 139.7 0)
 			(effects
 				(font
@@ -12745,6 +12721,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 41.91 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c7e814a-377e-4f4b-a66f-9eb548de3605")
+		(property "Reference" "Y1"
+			(at 45.72 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 45.72 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "329e5c33-95a6-4d79-84fc-01a1dc394e8b")
+		)
+		(pin "2"
+			(uuid "d2eb424e-a759-470c-95c5-8c7eb9ce0300")
+		)
+		(instances
+			(project "ComboFlex"
+				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 41.91 74.93 180)
 		(unit 1)
@@ -12771,7 +12817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 36.83 74.93 0)
 			(effects
 				(font
@@ -12972,7 +13018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 320.04 63.5 0)
 			(effects
 				(font
@@ -15099,80 +15145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 41.91 36.83 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51ff3242-6b5b-4a4a-9805-ce2c8b6413d6")
-		(property "Reference" "X1"
-			(at 41.91 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 41.91 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm"
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cec42992-acbe-4848-a2ea-5c7b2017b455")
-		)
-		(pin "2"
-			(uuid "ffb0527f-3a7f-4e44-8ebb-73043e27b01a")
-		)
-		(pin "3"
-			(uuid "4889e8b1-234e-40e3-b249-c69d8ccca77b")
-		)
-		(pin "4"
-			(uuid "021e8e81-ccbf-4f91-afaf-7f5419914033")
-		)
-		(instances
-			(project "ComboFlex"
-				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 533.4 35.56 0)
 		(unit 1)
@@ -15805,7 +15777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 433.07 142.24 0)
 			(effects
 				(font
@@ -16285,7 +16257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5052781933"
+		(property "Footprint" "comboflex:5052781933"
 			(at 482.6 46.99 0)
 			(effects
 				(font
@@ -16733,7 +16705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 427.99 147.32 0)
 			(effects
 				(font
@@ -17479,7 +17451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P300X200X60-9N-D"
+		(property "Footprint" "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm"
 			(at 511.81 120.65 0)
 			(effects
 				(font
@@ -18533,6 +18505,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af61177c-0b1d-43ed-aead-d66e4fe41f28")
+		(property "Reference" "TP25"
+			(at 20.828 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SoftShut"
+			(at 22.0979 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "comboflex:TestPoint_THTPad_D0.5mm_Drill0.35mm"
+			(at 24.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113cfdda-128f-4905-a8ef-3d47ebff18b9")
+		)
+		(instances
+			(project "ComboFlex"
+				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 71.12 0)
 		(unit 1)
@@ -18830,7 +18869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
 			(at 430.53 144.78 0)
 			(effects
 				(font
@@ -19389,72 +19428,6 @@
 			(project "ComboFlex"
 				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4a61b3a-0555-4283-b9cd-8974761ee674")
-		(property "Reference" "#PWR049"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "787b46af-f7c8-4fae-bfb8-4f9d28efc64a")
-		)
-		(instances
-			(project "ComboFlex"
-				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20554,6 +20527,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9b79f0c-002c-4444-86a6-c0bf3dc68579")
+		(property "Reference" "TP23"
+			(at 20.828 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SoftEcho"
+			(at 22.0979 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "comboflex:TestPoint_THTPad_D0.5mm_Drill0.35mm"
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd33ec4-e6ed-4414-b107-3da9ca691f11")
+		)
+		(instances
+			(project "ComboFlex"
+				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 38.1 90)
 		(unit 1)
@@ -20685,6 +20725,73 @@
 			(project "ComboFlex"
 				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 34.29 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef3273fe-636c-4b24-9999-37569ad83a46")
+		(property "Reference" "TP24"
+			(at 39.37 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SoftEcho"
+			(at 39.37 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "comboflex:TestPoint_Pad_D0.75mm"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "735e3ab1-d886-416f-b36a-4e10b63a55ee")
+		)
+		(instances
+			(project "ComboFlex"
+				(path "/e2d101d3-bf42-4f61-a881-d4588bf3891c"
+					(reference "TP24")
 					(unit 1)
 				)
 			)

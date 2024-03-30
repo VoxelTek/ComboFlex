@@ -1,4 +1,4 @@
-23214118379348398
+23217541946612366
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94878,6 +94878,13 @@ Varistor VF
 2
 2
 comboflex
+5052781933
+505278-1933-1
+Connector
+0
+21
+21
+comboflex
 QFP50P1600X1600X120-100N
 VQG100
 Integrated Circuit
@@ -94891,6 +94898,13 @@ SOP-28-MX
 0
 28
 28
+comboflex
+TestPoint_Pad_D0.75mm
+SMD pad as test Point, diameter 0.75mm
+test point SMD pad
+0
+1
+1
 comboflex
 TestPoint_THTPad_D0.5mm_Drill0.35mm
 THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
